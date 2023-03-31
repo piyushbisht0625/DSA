@@ -21,6 +21,7 @@ void print(int arr[], int s, int e){
         return false;
     
     int mid = s + (e-s)/2;
+    
     cout<< "value or arr mid is "<< arr[mid] << endl;
 
     //element found
