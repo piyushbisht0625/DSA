@@ -10,17 +10,17 @@ public:
         //include open bracket
         if(rem_open > 0 ){
             // output.push_back('(');
-            solve(ans, n, used_open+1, used_close, rem_open-1, rem_close, output);
-            //backtracking
-             output.pop_back();
+            solve(ans, n, used_open+1, used_close, rem_open-1, rem_close, output + '(' );
+            //backtrack
+            // output.pop_back();
         }
 
         //include close bracket
         if(used_open > used_close) {
             // output.push_back(')');
-            solve(ans, n , used_open, used_close+1, rem_open, rem_close-1 ,output);
-            //backtracking
-            output.pop_back();
+            solve(ans, n , used_open, used_close+1, rem_open, rem_close-1 ,output + ')');
+            //backtrack
+            // output.pop_back();
         }
 
     }
