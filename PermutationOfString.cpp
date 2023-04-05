@@ -22,7 +22,7 @@ void printPermutation(string &str, int i){
 } 
 
 int main(){
-    string str = "abc";
+    string str = "ab";
     int i =0;
     //function call
     printPermutation(str, i);

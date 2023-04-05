@@ -32,7 +32,7 @@ public:
                         //check for safety
                         if(isSafe(i,j, board, val)) {
                             //insert
-                            board[i][j] = val;
+                            board[i][j] = val;*
                             //recursion sambal lega
                             bool remainingBoardSolution = solve(board);
                             if(remainingBoardSolution == true) {
