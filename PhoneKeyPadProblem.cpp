@@ -19,11 +19,11 @@ public:
             char ch = value[i];
 
             //include
-            //output.push_back(ch);
+            output.push_back(ch);
             //recursive call
-            solve(ans, index+1, output + ch, digits, mapping);
+            solve(ans, index+1, output , digits, mapping);
             //backtrack
-           // output.pop_back();
+            output.pop_back();
         }
 
     }
