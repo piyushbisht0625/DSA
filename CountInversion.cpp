@@ -41,7 +41,7 @@ int Merge( int *arr, int s, int e){
             arr[mainArrayIndex++] = right[rightIndex++]; 
             //inversion found hre
             //as arr[i]> arr[j]
-            inv += len1 - leftIndex;
+            inv += len1 - leftIndex ;
         
             
         }

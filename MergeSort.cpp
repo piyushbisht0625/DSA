@@ -1,7 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-
 void Merge( int *arr, int s, int e){
 
     int mid = (s+e)/2;
@@ -86,8 +85,8 @@ void mergeSort(int*arr, int s, int e){
 
 
 int main(){
-    int arr[] = {2,5,3,7,2,12,50,16,45,87,60,10};
-    int n = 12;
+    int arr[] = {100,78,2,5,3,7,2,12,50,16,45,87,60,10,-1};
+    int n = 15;
 
     int s =0;
     int e = n-1; 
