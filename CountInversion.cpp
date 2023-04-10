@@ -2,7 +2,8 @@
 using namespace std;
 
 
-void Merge( int *arr, int s, int e){
+int Merge( int *arr, int s, int e){
+    int inv = 0;
 
     int mid = (s+e)/2;
 
@@ -31,13 +32,18 @@ void Merge( int *arr, int s, int e){
     int mainArrayIndex = s;
 
     while(leftIndex < len1 && rightIndex < len2){
-        if(left[leftIndex] < right[rightIndex]){
+        if(left[leftIndex] <= right[rightIndex]){
             arr[mainArrayIndex++] = left[leftIndex++];
 
         }
         else{
 
-            arr[mainArrayIndex++] = right[rightIndex++];
+            arr[mainArrayIndex++] = right[rightIndex++]; 
+            //inversion found hre
+            //as arr[i]> arr[j]
+            inv += len1 - leftIndex;
+        
+            
         }
 
     }
@@ -54,49 +60,49 @@ void Merge( int *arr, int s, int e){
     }
 
     
-    //Free space
-delete []left;
-delete []right;
-
+    return inv;
 } 
 
 
 
-void mergeSort(int*arr, int s, int e){
+int mergeSort(int*arr, int s, int e){
+    int inv = 0;
+    
     //Base case
     // s==e -> single element
     // s>e -> invalid array
-    if(s>=e)
-    return;
-
-    int mid = (s+e)/2;
-
+    if(s < e){
+         int mid = (s+e)/2; 
+    
+     
     //left part solve using recursion
 
-    mergeSort(arr, s, mid);
+     inv += mergeSort(arr, s, mid);
     //right part solve using recursion
 
-    mergeSort(arr, mid+1, e);
+     inv += mergeSort(arr, mid+1, e);
 
     // Now merge two sorted array
-    Merge(arr,s,e);
+    inv += Merge(arr,s,e);
+    
+    }
+
+    return inv; 
 
 } 
 
 
-
+ 
 int main(){
-    int arr[] = {2,5,3,7,2,12,50,16,45,87,60,10};
-    int n = 12;
+    int arr[] = {8,4,2,1 };
+    int n = sizeof(arr)/ sizeof(arr[0]) ;
 
     int s =0;
     int e = n-1; 
 
-    mergeSort( arr, s, e);
+     cout << mergeSort( arr, s, e);
 
-    for(int i=0; i<n; i++){
-        cout << arr[i] << " ";
-    }
+   
     cout << endl;
 
 
@@ -104,3 +110,4 @@ int main(){
 
 
 }
+ 
