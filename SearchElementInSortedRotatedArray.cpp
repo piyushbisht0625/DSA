@@ -1,5 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
+//IMPORTANT
 int binarySearch(int arr[],int n,int target){
     int low=0;
     int high=n-1;
@@ -36,10 +37,10 @@ int binarySearch(int arr[],int n,int target){
 }
 signed main(){
     int arr[]={4,5,6,7,0,1,2};
-    int n=sizeof(arr)/sizeof(int);
+    int n=sizeof(arr)/sizeof(arr[0]);
      int target;
-     cout<<"Enter the target"<<" ";
+     cout<< " Enter the target"<< "  ";
      cin>>target;
-     cout<<binarySearch(arr,n,target);
+     cout<< binarySearch(arr,n,target);
     return 0;
 }
