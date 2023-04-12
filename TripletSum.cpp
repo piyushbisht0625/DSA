@@ -3,6 +3,7 @@
 using namespace std;
 
 int main(){
+    //TRIPLET SUM CODE
 vector<int> arr{10,20,20,40,50};
 int target = 100;
 
