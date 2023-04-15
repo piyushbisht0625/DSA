@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-//KADANE'S Algorithm (Maximun SubArray sum)
+//KADANE'S Algorithm (Maximun SubArray Sum)
 // A Subarray is a contiguous part of an array
 
 int maxSubArray(vector<int> &arr){
