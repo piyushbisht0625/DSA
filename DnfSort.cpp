@@ -7,7 +7,8 @@ using namespace std;
     arr[i] = arr[j];
     arr[j] = temp;
 }*/
-//This is sort (0s 1s and 2s) also called sort color
+//This is sort (0s 1s and 2s) also called sort color.
+
 //this algo or sort is also called dutch national flag due to three color present in it
 // TC = o(n)
 
