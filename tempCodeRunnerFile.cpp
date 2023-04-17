@@ -1,3 +1,6 @@
+vector<int> arr{1,3,3,5,4};
+    int n = arr.size();
 
-        if(arr[mid] == 0){   
-            swap(arr[low], arr[mid]);
+    findMissingElement(arr,  n);
+
+    return 0;

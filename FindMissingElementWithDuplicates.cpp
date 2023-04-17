@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-                   //Method - 1
+                  //Method - 1
 
 //Finding missing element from a array with duplicate. 
 // This is visited method 
