@@ -1,6 +1,10 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+//Leaders in Array i.e  -an elemnt is said to be leader
+// if there is nothing greater than this element in right of it.
+
+
 //Method 1
 //TC = o(N^2)
 void Leaders(vector<int> &arr){
@@ -22,6 +26,8 @@ void Leaders(vector<int> &arr){
 }
 
 // Method 2 optimised approach
+// KEY POINT - The right most  element is always a leader of thr array.
+
 // TC = theta(n)
 // But this print array from right side , to print array from 
 // right we need auxillary space a new arrfay and copyinf=g
