@@ -25,7 +25,7 @@ public:
         }
 
     string addStrings(string num1, string num2) {
-        string ans = "";
+        string ans = ""; // empty answer string 
         addRE( num1, num1.size()-1, num2, num2 .size()-1, 0, ans);
         reverse(ans.begin(), ans.end());
         return ans;
