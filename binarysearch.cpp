@@ -20,7 +20,7 @@ void print(int arr[], int s, int e){
     if (s>e)
         return false;
     
-    int mid = s + (e-s)/2;
+    int mid = s + (e-s)/2; // for all integer range this is valid 
     
     cout<< "value or arr mid is "<< arr[mid] << endl;
 
