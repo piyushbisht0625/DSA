@@ -5,7 +5,7 @@ using namespace std;
 //TC = Theta(Total Bits in N)
 
 int CountSetBits(int n){
-    int res =0;
+    int res = 0;
     while(n > 0){
         // Last bit is set or not
         if(n % 2!=0) 
@@ -23,7 +23,7 @@ int CountSetBits(int n){
 }
 int main(){
     int n= 13;
-    cout<< " The total Setbits Present is: " << CountSetBits(n)<< endl;
+    cout<< " The total Setbits Present is: " << CountSetBits(n) << endl;
 
 
 }
