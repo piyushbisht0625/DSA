@@ -1,5 +1,5 @@
 #include<bits/stdc++.h>
-using namespace std;
+using namespace   std;
 
 
 int Merge( int *arr, int s, int e){
@@ -26,13 +26,13 @@ int Merge( int *arr, int s, int e){
         k++;
     }
 
-    // merge logic
+    // merge logic below 
     int leftIndex = 0;
     int rightIndex = 0;
     int mainArrayIndex = s;
 
-    while(leftIndex < len1 && rightIndex < len2){
-        if(left[leftIndex] <= right[rightIndex]){
+    while( leftIndex < len1 && rightIndex < len2){
+        if( left[leftIndex] <= right[rightIndex]){
             arr[mainArrayIndex++] = left[leftIndex++];
 
         }
