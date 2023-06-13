@@ -3,7 +3,7 @@ using namespace std;
 
 // Method 1 - Visited Method
 
-int findDuplicate(vector<int> &arr){
+int findDuplicate(vector<int> & arr){
     int ans = -1;
     for(int i =0; i<arr.size(); i++){
         int index = abs(arr[i]);
@@ -22,7 +22,7 @@ int findDuplicate(vector<int> &arr){
 
 // Method 2 - Positioning Method
 
-int FindDuplicate(vector<int> &arr){
+int FindDuplicate( vector<int> &arr ){
     while(arr[0] != arr[arr[0]]){
         swap(arr[0], arr[arr[0]]);
     }
@@ -31,9 +31,9 @@ int FindDuplicate(vector<int> &arr){
 
 //Method 3- using sort stl
 
-int Duplicate(vector<int> &arr){
-    sort(arr.begin(), arr.end());
-    for(int i =0; i<arr.size(); i++){
+int Duplicate( vector<int> &arr){
+    sort( arr.begin(), arr.end());
+    for( int i =0; i<arr.size(); i++){
         if(arr[i] == arr[i+1])
         return arr[i];
     }
