@@ -14,6 +14,7 @@ public:
         int n2 = (p2 >=0 ? num2[p2] : '0') -'0';
         int csum = n1 + n2 + carry;
         int digit = csum % 10;
+        
         carry =  csum /10;
         ans.push_back(digit + '0');
 
