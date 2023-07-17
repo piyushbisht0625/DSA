@@ -9,7 +9,7 @@ using namespace std;
 }*/
 //This is sort (0s 1s and 2s) also called sort color.
 
-//this algo or sort is also called dutch national flag due to three color present in it
+//this algo or sort is also called dutch national flag due to three color present in it 
 // TC = o(n)
 
  void DnfSort(vector<int> &arr, int n){
