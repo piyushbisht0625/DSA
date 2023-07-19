@@ -13,7 +13,7 @@ int Merge( int *arr, int s, int e){
     int* left = new int[len1];
     int* right = new int[len2];
 
-    //Copy values;
+    // Copy values;
     int k = s;
     for(int i=0; i<len1; i++){
         left[i] = arr[k];
@@ -31,8 +31,8 @@ int Merge( int *arr, int s, int e){
     int rightIndex = 0;
     int mainArrayIndex = s;
 
-    while( leftIndex < len1 && rightIndex < len2){
-        if( left[leftIndex] <= right[rightIndex]){
+    while ( leftIndex < len1 && rightIndex < len2){
+        if ( left[leftIndex] <= right[rightIndex]){
             arr[mainArrayIndex++] = left[leftIndex++];
 
         }
