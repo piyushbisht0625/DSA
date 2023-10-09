@@ -1,4 +1,4 @@
-#include<bits/stdc++.h>
+ #include<bits/stdc++.h>
 using namespace std;
 
 void moveZeroes(int *arr, int n){
