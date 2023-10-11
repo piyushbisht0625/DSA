@@ -8,7 +8,7 @@ public:
         }
 
         //include open bracket
-        if(rem_open > 0 ){
+        if (rem_open > 0 ){
             // output.push_back('(');
             solve(ans, n, used_open+1, used_close, rem_open-1, rem_close, output + '(' );
             //backtrack
