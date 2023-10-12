@@ -3,7 +3,7 @@ using namespace std;
  
 void pascaltriangle(int row_num){
  
-    // Loop to print each row
+     // Loop to print each row
     for(int n = 1; n <= row_num; n++){
  
         // Loop to print spaces for triangular display
