@@ -13,7 +13,7 @@
 
             if(pos == i){
                 pos = des;
-                jump++;
+                jump++; 
             }
         }
         return jump;
