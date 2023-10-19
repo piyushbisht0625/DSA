@@ -6,6 +6,7 @@ bool isEqual(int a[26], int b[26]){
             return 0;
         }
         return 1;
+    
 }
 public:
     bool checkInclusion(string s1, string s2) {
