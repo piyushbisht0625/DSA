@@ -2,7 +2,7 @@
 
 using namespace std;
 
-// Method 1 - Naive Solutionn
+// Method 1 - Naive Solutionn 
 //TC = Theta(Total Bits in N)
 
 int CountSetBits(int n){
