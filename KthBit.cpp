@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-
+ 
 // Method 1 - Left Shift
 
 void kthBit(int n, int k){
