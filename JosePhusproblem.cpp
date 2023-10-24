@@ -2,7 +2,7 @@
 using namespace std;
 
 int josephus(int n, int k){
-    
+     
     //Base condtion
     if(n==1)
 
