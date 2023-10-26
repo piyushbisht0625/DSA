@@ -3,7 +3,7 @@ using namespace std;
 
 string reverseOnlyLetters(string s){
 
-    int l=0, h= s.size()-1;
+    int l=0, h= s.size()-1; 
     while(l<h){
         if(isalpha(s[l])  && isalpha(s[h])){
             swap (s[l], s[h]);
