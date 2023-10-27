@@ -2,7 +2,7 @@
 using namespace std;
 
 
-void duplicate(int arr[],int n){
+void duplicate(int arr[],int n){ 
     int check[100]={};
     for(int i=0;i<n;i++){
         check[arr[i]]++;
