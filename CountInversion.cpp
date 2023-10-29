@@ -5,7 +5,7 @@ using namespace   std;
 int Merge( int *arr, int s, int e){
     int inv = 0;
 
-    int mid = (s+e)/2;
+    int mid = (s+e)/2; 
 
     int len1 = mid - s + 1;
     int len2 = e - mid;
