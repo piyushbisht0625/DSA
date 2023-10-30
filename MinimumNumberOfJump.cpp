@@ -4,7 +4,7 @@
  
 
  int jump(vector<int>& arr){
-
+ 
         int jump =0;
         int pos = 0;//position
         int des = 0;// destination
