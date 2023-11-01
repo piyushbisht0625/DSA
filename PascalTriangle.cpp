@@ -5,7 +5,7 @@ void pascaltriangle(int row_num){
  
      // Loop to print each row
     for(int n = 1; n <= row_num; n++){
- 
+  
         // Loop to print spaces for triangular display
         for(int r = 1; r < row_num-n+1; r++)
             cout<<"  ";
