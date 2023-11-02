@@ -2,7 +2,7 @@
 using namespace std;
 
 void rotateArray(vector<int> &arr, int k){
-
+ 
     int n = arr.size();
     vector<int> temp(arr.size());
 
