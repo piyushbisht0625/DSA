@@ -8,7 +8,7 @@ using namespace std;
 //Method 1
 //TC = o(N^2)
 void Leaders(vector<int> &arr){
-    int n = arr.size();
+    int n = arr.size(); 
 
     for(int i =0; i<n; i++ ){
         bool flag = false;
