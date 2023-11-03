@@ -11,7 +11,7 @@ void FindElement( vector<int> &arr, int n){
             swap(arr[i], arr[index]); 
         }
         else{
-            i++;
+            i++; 
         }
     }
 
