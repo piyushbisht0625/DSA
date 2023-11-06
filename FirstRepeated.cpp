@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-// Find first repeated element 
+// Find first repeated element  
 
 int FirstRepeated(int* arr, int n){
     unordered_map<int, int >hash;
