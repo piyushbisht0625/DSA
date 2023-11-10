@@ -6,7 +6,7 @@ using namespace std;
 
 
 //Method 1
-//TC = o(N^2)
+//TC = o(N^2) 
 void Leaders(vector<int> &arr){
     int n = arr.size(); 
 
