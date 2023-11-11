@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using  namespace std;
 
-void Uppercase( char arr[]){
+void Uppercase( char arr[]){ 
 
     int n = strlen(arr);
     for (int i = 0; i<n; i++){
