@@ -1,5 +1,5 @@
 # include<bits/stdc++.h>
-using namespace std;
+using namespace std; 
 
 // Method 1 - Visited Method
 
