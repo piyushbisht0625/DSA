@@ -1,7 +1,7 @@
 
 #include<bits/stdc++.h>
 using namespace   std;
-
+ 
 
 int Merge( int *arr, int s, int e){
     int inv = 0;
