@@ -1,6 +1,9 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+
+
+
 // Find first repeated element  
 
 int FirstRepeated(int* arr, int n){
