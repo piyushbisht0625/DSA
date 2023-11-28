@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-
+ 
 //METHOD =2 => (Sorting + Swapping method)
   
 void FindElement( vector<int> &arr, int n){
