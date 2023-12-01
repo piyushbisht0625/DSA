@@ -1,6 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+
 bool CanJump(vector<int> &arr){
     int n = arr.size();
     int rechable = 0;
