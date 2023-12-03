@@ -8,7 +8,7 @@ void FindElement( vector<int> &arr, int n){
     while(i <n){
         int index = arr[i]-1; 
         if(arr[i] != arr[index]){
-            swap(arr[i], arr[index]); 
+            swap(arr[i], arr[index]);  
         }
         else{
             i++; 
