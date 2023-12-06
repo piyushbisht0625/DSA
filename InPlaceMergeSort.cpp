@@ -3,6 +3,7 @@ using namespace std;
 
 //Gap method
 //SC- o(1)
+
 void MergeInPlace(int * arr, int s, int e){
     int mid = (s+e)/2;
     int total_len = e -s +1;
