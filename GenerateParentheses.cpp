@@ -1,4 +1,4 @@
-class Solution {
+  class Solution {
 public:
     void solve(vector<string> &ans, int n,int used_open, int used_close, int rem_open, int rem_close, string output) {
         //base case 
