@@ -5,6 +5,7 @@ int solve(vector<int> &arr ,int target){
     //Base case
     if(target == 0)
       return 0;
+ 
 
     //so that mini will not get update
     if(target < 0)
