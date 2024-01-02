@@ -7,7 +7,7 @@ int x=10;
 int y=20;
 
 int temp=x;
-x = y;
+x = y;  
 y = temp;
  
  cout<<"The number after swaping" << x << " " <<y  <<endl;
