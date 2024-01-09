@@ -4,7 +4,7 @@ typedef long long ll;
 
 int main()
 {
-    int t;
+    int t; 
     cin >> t;
 
     while (t--)
