@@ -9,7 +9,7 @@ bool checkSorted(vector<int> &arr, int& n, int i){
     //1 case solve kra h  
     if(arr[i+1] < arr[i])
         return false;
-
+ 
     
 
     //Baki recursion will do
