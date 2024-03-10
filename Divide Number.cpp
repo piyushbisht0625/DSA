@@ -3,7 +3,7 @@ using namespace std;
 
 int solve(int dividend, int divisor){
 
-    int s =0;
+    int s =0; 
     int e = abs(dividend);
     int ans = 0;
 
