@@ -4,7 +4,6 @@ int main(){
 
     vector<int> arr{23, 12,34,45,56,67,78,89,90,123,2,3,46,68,98,76,54,32,21,10, ,33,22,100}; 
     int n = arr.size();
-
     //insertion sort
     for(int round =1; round < n; round++){
         //Step 1:- Fetch
