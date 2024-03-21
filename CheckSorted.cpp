@@ -5,7 +5,7 @@ bool checkSorted(vector<int> &arr, int& n, int i){
     //Base case
     if(i == n-1)v
         return true; 
-
+ 
     //1 case solve kra h  
     if(arr[i+1] < arr[i])
         return false;
