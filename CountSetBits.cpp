@@ -4,7 +4,7 @@ using namespace std;
 
 // Method 1 - Naive Solutionn 
 //TC = Theta(Total Bits in N)
-
+ 
 int CountSetBits(int n){
     int res = 0;
     while(n > 0){
