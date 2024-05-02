@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-int climbingStairs(int n){ 
+int climbingStairs(int n){  
     if( n == 0 || n == 1){  
  
          
