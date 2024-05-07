@@ -4,7 +4,7 @@ using namespace std;
 //IMPORTANT
  
 // Brian Kerningam's Algorithm to count set bits
- 
+  
 int CountBits(int n){
     int res =0;
     while(n>0){
