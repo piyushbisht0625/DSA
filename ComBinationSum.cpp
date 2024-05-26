@@ -7,7 +7,7 @@ ans, int index){
     //Base condition
 	
     if (target == 0){
-        ans.push_back(ds);
+        ans.push_back(ds); 
         return;    
     }  
 	 
