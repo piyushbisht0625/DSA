@@ -10,7 +10,7 @@ int climbingStairs(int n){
     
 
     return climbingStairs(n-1) + climbingStairs(n-2);
-}
+} 
 
 
 int main(){
