@@ -1,4 +1,4 @@
- #include<bits/stdc++.h>
+  #include<bits/stdc++.h>
 using namespace std;
  
 bool checkSorted(vector<int> &arr, int& n, int i){     
