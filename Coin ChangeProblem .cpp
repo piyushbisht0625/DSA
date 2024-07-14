@@ -11,7 +11,7 @@ int solve(vector<int> &arr ,int target){
     //so that mini will not get update
     if(target < 0)
       return INT_MAX;
-
+ 
     //Solve 1 case
     int mini = INT_MAX;
     for(int i = 0; i<arr.size(); i++){
