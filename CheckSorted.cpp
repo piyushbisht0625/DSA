@@ -1,7 +1,7 @@
   #include<bits/stdc++.h>
 using namespace std;
  
-bool checkSorted(vector<int> &arr, int& n, int i){     
+bool checkSorted(vector<int> &arr, int& n, int i){      
     //Base case 
     if(i == n-1)   
         return true; 
