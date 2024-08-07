@@ -12,7 +12,7 @@ ans, int index){
     }  
 	 
 
-    if(target <0){ 
+    if(target <0){  
         return;
     }
 
