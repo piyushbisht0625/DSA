@@ -3,7 +3,7 @@ using namespace std;
  
 bool checkSorted(vector<int> &arr, int& n, int i){      
     //Base case   
-    if(i == n-1)   
+    if(i == n-1)    
         return true;  
   
     //1 case solve kra h   
