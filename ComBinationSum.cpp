@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-void CombinationSumHelper(vector<int> &input, int target, vector<int> &ds, vecto<vector<int>> &
+void CombinationSumHelper(vector<int> &input, int target, vector<int> &ds, vecto<vector<int>> & 
 ans, int index){
 
     //Base condition 
