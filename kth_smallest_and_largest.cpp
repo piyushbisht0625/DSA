@@ -1,6 +1,6 @@
  #include<bits/stdc++.h>
 using namespace std;
-priority_queue<int>maxh;
+priority_queue<int>maxh; 
 int kthsmallest(int arr[],int n,int k){
     for(int i=0;i<n;i++){
         maxh.push(arr[i]);
