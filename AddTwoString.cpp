@@ -7,7 +7,7 @@ public:
 
     void addRE(string&num1, int p1, string&num2, int p2, int carry, sring &ans){
         //Base case   
-        if(p1 < 0 && p2 < 0){
+        if(p1 < 0 && p2 < 0){ 
             if(carry !=0){
                 ans.push_back(carry + '0'); 
             } 
